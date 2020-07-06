@@ -1,0 +1,47 @@
+To: charles99@gmail.com
+Subject: Verify your Email Address
+MIME-Version: 1.0
+Content-type:text/html;charset=UTF-8
+From: <support@mixtone.com>
+
+<html>
+<head>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Mixtone</title>
+    <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css'>
+    
+</head>
+</head>
+<body>
+
+<div class ='container'>
+<div class = 'row'>
+<h3 class='text-muted'> Mixtone </h3>
+</div>
+<div class='row'>
+<p>Hi,</p>
+<p>Thank you for creating a Mixtone Account!,To start enjoying mixtone , you first need to confirm your email address <br></p>
+<br>
+<div class='row'>
+<div class='col-12'>
+<a class='btn btn-success' role = 'button' href='http://mixtone.atwebpages.com/verify.php?code=1583814270'>Confirm your Email Address</a>
+</div>
+<p>Regards </p>
+<p>Tony Cookey</p>
+</div>
+</div>
+</div>
+
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.0/js/bootstrap.bundle.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js'></script>
+    <script src='assets/js/script.min.js'></script>
+</body>
+</html>

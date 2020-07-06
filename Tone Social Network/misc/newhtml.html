@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+ <div class='row' style='margin-top:36px;'>
+                        <div class='col-lg-2'><img class='rounded-circle' src='assets/img/$user_image' style='width:67px;margin-right:0px;margin-bottom:18px;'></div>
+                        <div class='col-lg-10' style='margin-left:-30px;margin-top:8px;'>
+                            <h5 class='text-left' style='font-size:17px;'><a href='account.php?user_id=$user_id'> $user_name </a></h5>
+                            <p class='text-left' style='color:#b2b2b2;margin-top:-7px;'><i class='fa fa-clock-o' style='font-size:20px;'></i> $post_date</p>
+                        </div>
+                        <div class='col-lg-12' style='margin-top:-11px;'>
+                            <p class='text-center' style='height:100px;background-color:#ffffff;'>$post_title <br> $post_content</p>
+                            <div class='btn-group float-right' role='group' style='height:47px;margin-top:-12px;'><button class='btn btn-primary' type='button' style='height:47px;margin-top:0px;'>Repost<i class='fa fa-share-square-o' style='margin-left:8px;'></i></button><button class='btn btn-danger' type='button'>Like<i class='fa fa-heart-o' style='margin-left:5px;margin-top:3px;'></i></button>
+                                <a class='btn btn-dark' href='single.php?post_id=$post_id'>Comment<i class='fa fa-comments-o' style='margin-left:5px;margin-top:3px;'></i></a>
+                            </div>
+                        </div>
+                    </div>
+<form method='post' >
+ <textarea class='form-control form-control-lg' rows='2' name='post-content' required='required' spellcheck='true' placeholder='Comment on this Post' style='margin-top:22px;font-size:18px;height:85px;'></textarea>
+                                     <button class='btn btn-dark btn-lg float-right' type='submit' name = 'comment' style='margin-top:18px;width:191px;padding-bottom:11px;padding-top:3px;margin-right:10px;padding-left:14px;height:41px;'>Post Comment</button>
+</form>
+
+"<div class='row' style='margin-top:36px;'>
+                        <div class='col-lg-2'><img class='rounded-circle' src='assets/img/$user_image' style='width:77px;margin-right:0px;margin-bottom:18px;'></div>
+                        <div class='col-lg-10' style='margin-left:-30px;margin-top:8px;'>
+                            <h5 class='text-left' style='font-size:19px;'><a href='account.php?user_id=$user_id'>$user_name</a></h5>
+                            <p class='text-left' style='color:#b2b2b2;margin-top:0px;'><i class='fa fa-clock-o' style='font-size:15px;'></i> $post_date</p>
+                        </div>
+                        <div class='col-lg-12' style='margin-top:-11px;'>
+                            <p class='text-center' style='height:180px;background-color:#ffffff;'><strong style = 'color:black; font-size:18px;font-style:italic;'> $post_title </strong> <br><br> $content</p>
+                            <div class='btn-group float-right' role='group' style='height:47px;margin-top:-12px;'><div class='row'><button class='btn btn-primary' type='button' style='height:47px;margin-top:0px; text-decoration:justify; line-height:10px;'>Repost<i class='fa fa-share-square-o' style='margin-left:8px;'></i></button><button class='btn btn-danger' type='submit' name='likes'> $likes <i class='fa fa-heart-o' style='margin-left:5px;margin-top:3px;'></i></button></div>
+                                
+                            </div>
+                        </div>
+                    </div> "
+
+<div class='row' style='margin-top:36px;'>
+                         <div class='col-lg-10' style='margin-top:8px;'>
+                            <h5 class='text-left' style='font-size:19px; text-transform: capitalize;'><a href='user_profile.php?user_id=$mesg_receiver' target='blank'>$rec_name</a></h5>
+                            <p class='text-left' style='color:#b2b2b2;margin-top:0px;'><i class='fa fa-clock-o' style='font-size:15px;'></i> $mesg_date</p>
+                        </div>
+                        <div class='col-lg-2'><img class='rounded-circle' src='assets/img/$receiver_img' height ='60'></div>
+                       
+                        <div class='col-lg-12' style='margin-top:-11px;'>
+                        <div style='height:100px; background-color:#ffffff;'>
+                                                       
+                            <p class = 'text-left' style =  ' font-size:16px; margin-left:30px; padding:0px;' > $mesg_content </p>
+                            </div>    
+                                                   </div>
+                    </div>
